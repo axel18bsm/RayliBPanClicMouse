@@ -8,9 +8,18 @@ ainsi que les coordonnées globales à la fenetre.
 L'image sera "clampée" à sa taille, pas de terra incognita.
 
 
+
 # A quoi cela sert-il ?
-Cela vous permet de coder de suite des utilitaires afin  positionner sur une image qui dépasse la taille de l'écran des éléments. 
-il autorise sur la bordure droite de créer un Gui sans 
+Cela vous permet de coder de suite des utilitaires afin de positionner des  sur une image qui dépasse la taille de l'écran. 
+il autorise sur la bordure droite de créer un Gui sans que celui ci disparaisse.
+il autorise sous la bordure du bas d'ecrire des messages.
+les tailles des bordures sont modifiables dans le code. Actuellement les bordures sont d'une largeur de 0 (gauche),0 (haut),200 droite,100 (bas) pixel.
+Mais vous faite ce que vous voulez.
+
+#un exemple de projet :
+Création de noeud (node sur une map existante avec liaison ou non internoeud ( 
+
+
 #  Installation
 Vous collez le tout dans un repertoire. Vous créez ensuite un sous répertoire "ressources"
 Vous déplacez le graphique dans ce sous-répertoire.
